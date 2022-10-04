@@ -13,18 +13,37 @@
         padding: 15px;
     }
     
-    .menu {}
-    .main {}
-    .aside {}
+    .menu {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid blueviolet
+    }
+
+    .main {
+        width: 50%;
+        float: left;
+        padding: 15px;
+        border: 1px solid blueviolet
+    }
+
+    .aside {
+        width: 25%;
+        float: left;
+        padding: 15px;
+        border: 1px solid blueviolet
+    }
+
     .footer {}
+
 </style>
 
 
 <body>
-    <div><header><h1>Flexbox page</h1></header></div>
-    <div><nav class="header"><h1>navigation</h1></nav></div>
-    <div><aside><a>This is the aside space</a></aside></div>
-    <div><main><h1>Main Space</h1></main></div>
+    <div><header class="header"><h1>Flexbox page</h1></header></div>
+    <div><nav class="menu"><h1>navigation</h1></nav></div>
+    <div><aside class="aside"><a>This is the aside space</a></aside></div>
+    <div><main class="main"><h1>Main Space</h1></main></div>
     <div><section>Section</section></div>
     <div><article>Article</article></div>
     <div><footer></footer></div>
